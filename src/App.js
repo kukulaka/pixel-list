@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Layout } from 'antd';
+import Main from './containers/main';
+import TitleHeader from './components/styled/title-header';
 import './App.css';
 
-function App() {
+
+
+const { Header, Footer, Content } = Layout;
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Layout>
+      <Header style={{height:"8vh"}}><TitleHeader text="List Manager"/>
+      </Header>
+      <Content>
+      <Main/>
+     </Content>
+      <Footer style={{height:"8vh", textAlign:"center"}}><strong>Tanya Byrne</strong></Footer>
+    </Layout> 
+  )
+
 }
 
 export default App;

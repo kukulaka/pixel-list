@@ -1,4 +1,24 @@
-# Getting Started with Create React App
+# Pixel list  test
+
+
+- [x] Hit the endpoint https://8ee41f94-d4f4-439d-8233-e573edca74ff.mock.pstmn.io/users 
+- [x] Display a loader while the api loads.
+- [x] There will be a list of people in the response which you will need to display to allow the end user to select from.
+- [x] Allow the end user to create a list of their own and add or remove the people (from the api) to their list.
+- [x] They should only be allowed to create one list and add the same person only once to that list.
+- [x] Give the end user the option to sort their list alphabetically (Ascending and Descending)
+- [x] There is no style guide so you can be as creative as you want, but focus more on getting the functionality right.
+
+
+**Things we look for**:
+- [x] React
+- [x] React Hooks
+- [x] JSX
+- [x] Use of components
+- [x] Use of api's
+- [x] Sass/Scss or Styled Components
+
+**There is no real testing in this project due to time contraints but would use Jest. I have, however, written a basic test to check for the h1 text**
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
