@@ -20,6 +20,8 @@
 
 **There is no real testing in this project due to time contraints but would use Jest. I have, however, written a basic test to check for the h1 text**
 
+.env would not normally be commited but wanted to show an example.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
